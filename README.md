@@ -174,12 +174,13 @@ fetal-health-classification/
 │   ├── correlation_analysis.pdf
 │   ├── visualizations/      
 │                ├── 
-│                ├── methodology.md                # Statistical methods documentation
-│                ├── methodology.md                # Statistical methods documentation
-│                ├── methodology.md                # Statistical methods documentation
-│                ├── methodology.md                # Statistical methods documentation
-│                ├── methodology.md                # Statistical methods documentation
-│                └── interpretation_guide.md       # How to interpret results
+│                ├── baseline_fhr_boxplot.png
+│                ├── health_status_distribution.png
+│                ├── health_status_distribution1.png
+│                ├── health_status_distribution2.png
+│                ├── health_status_distribution3.png
+│                ├── health_status_distribution4.png
+│                └── roc_curve_binary.png
 │
 └── LICENSE                           # MIT License
 ```
@@ -202,7 +203,6 @@ fetal-health-classification/
 
 2. **Download the dataset**
    - Visit [Kaggle Dataset](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
-   - Place `fetal_health.csv` in the `data/` folder
 
 3. **Run SAS programs in order**
    ```sas
@@ -217,7 +217,6 @@ fetal-health-classification/
 
 4. **Review outputs**
    - Check `output/` folder for results
-   - See `documentation/` for detailed interpretation
 
 ---
 
@@ -274,10 +273,10 @@ This project demonstrates:
 
 ## 👤 Author
 
-**Praisie Jemimah**  
-MSc Statistics Graduate
-📧 akkepogupraisie@gmail.com
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)  
+**Praisie Jemimah**
+- Email: akkepogupraisie@gmail.com
+- GitHub: Jem1917(https://github.com/Jem1917)
+- LinkedIn: Praisie Jemimah
 
 ---
 
@@ -298,7 +297,7 @@ This project is licensed under the MIT License.
 
 For questions, collaborations, or opportunities, please reach out via:
 - Email: akkepogupraisie@gmailcom
-- LinkedIn: [Your LinkedIn Profile]
+- LinkedIn: Praisie Jemimah
 
 ---
 
