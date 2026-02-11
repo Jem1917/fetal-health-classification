@@ -197,7 +197,7 @@ fetal-health-classification/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/fetal-health-classification.git
+   git clone https://github.com/Jem1917/fetal-health-classification.git
    cd fetal-health-classification
    ```
 
