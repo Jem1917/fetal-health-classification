@@ -1,0 +1,92 @@
+                                 Table 1: Descriptive Statistics by Fetal Health Status
+
+                                                  The MEANS Procedure
+
+                              Analysis Variable : baseline_value Baseline Fetal Heart Rate
+
+        Fetal Health Status          N Obs           Mean        Std Dev        Minimum        Maximum
+        ----------------------------------------------------------------------------------------------
+        Normal                          60         134.00          11.94         114.00         158.00
+        Pathological                    18         131.06           9.99         122.00         148.00
+        Suspect                         22         145.91          10.92         120.00         159.00
+        ----------------------------------------------------------------------------------------------
+
+                               Analysis Variable : accelerations Number of Accelerations
+
+        Fetal Health Status          N Obs           Mean        Std Dev        Minimum        Maximum
+        ----------------------------------------------------------------------------------------------
+        Normal                          60           0.00           0.00           0.00           0.01
+        Pathological                    18           0.00           0.00           0.00           0.00
+        Suspect                         22           0.00           0.00           0.00           0.00
+        ----------------------------------------------------------------------------------------------
+
+                                   Analysis Variable : fetal_movement Fetal Movement
+
+        Fetal Health Status          N Obs           Mean        Std Dev        Minimum        Maximum
+        ----------------------------------------------------------------------------------------------
+        Normal                          60           0.07           0.13           0.00           0.47
+        Pathological                    18           0.04           0.11           0.00           0.34
+        Suspect                         22           0.02           0.09           0.00           0.38
+        ----------------------------------------------------------------------------------------------
+
+                             Analysis Variable : uterine_contractions Uterine Contractions
+
+        Fetal Health Status          N Obs           Mean        Std Dev        Minimum        Maximum
+        ----------------------------------------------------------------------------------------------
+        Normal                          60           0.00           0.00           0.00           0.01
+        Pathological                    18           0.00           0.00           0.00           0.01
+        Suspect                         22           0.00           0.00           0.00           0.01
+        ----------------------------------------------------------------------------------------------
+
+                             Analysis Variable : severe_decelerations Severe Decelerations
+
+        Fetal Health Status          N Obs           Mean        Std Dev        Minimum        Maximum
+        ----------------------------------------------------------------------------------------------
+        Normal                          60           0.00           0.00           0.00           0.00
+        Pathological                    18           0.00           0.00           0.00           0.00
+        Suspect                         22           0.00           0.00           0.00           0.00
+        ----------------------------------------------------------------------------------------------
+
+                                     Frequency Distribution of Fetal Health Status
+
+                                                   The FREQ Procedure
+
+Fetal Health Status    Frequency    Percent
+--------------------------------------------
+Normal                        60     60.00
+Pathological                  18     18.00
+Suspect                       22     22.00
+                                         Severe Decelerations by Health Status
+
+                                                   The FREQ Procedure
+
+Table of Fetal Health Status by Severe Decelerations
+
+Fetal Health Status |         0 |      Total
+--------------------+-----------+-----------
+Normal              |        60 |         60
+                    |     60.00 |      60.00
+                    |    100.00 |     100.00
+                    |     60.00 |      60.00
+--------------------+-----------+-----------
+Pathological        |        18 |         18
+                    |     18.00 |      18.00
+                    |    100.00 |     100.00
+                    |     18.00 |      18.00
+--------------------+-----------+-----------
+Suspect             |        22 |         22
+                    |     22.00 |      22.00
+                    |    100.00 |     100.00
+                    |     22.00 |      22.00
+--------------------+-----------+-----------
+Total               |       100 |        100
+
+Statistics for Table of Fetal Health Status by Severe Decelerations
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                0 0.0000       1.0000
+Likelihood Ratio Chi-Square               0 0.0000       1.0000
+
+Cramer's V                           0.0000
+Contingency Coefficient              0.0000

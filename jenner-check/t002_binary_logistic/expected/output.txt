@@ -1,0 +1,107 @@
+                                     Binary Logistic Regression: Abnormal vs Normal
+
+                                     
+---------------------------  --------
+Number of Observations Read       100
+Number of Observations Used       100
+
+            Response Profile            
+  Probability modeled is abnormal='1'   
+
+Ordered Value  abnormal  Total Frequency
+-------------  --------  ---------------
+            1  0                      60
+            2  1                      40
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+                                                                                                                     
+---------------------------------------------------------------------------------------------------------------------
+WARNING: There is possibly a quasi-complete separation of data points. The maximum likelihood estimate may not exist.
+
+The LOGISTIC Procedure
+Response Variable: abnormal Abnormal (Suspect or Pathological)
+
+Criterion     Value
+---------  --------
+AIC          87.847
+-2 Log L     75.847
+SC          103.478
+
+                  Analysis of Maximum Likelihood Estimates                  
+
+Parameter              Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+--------------------  ---------  --------------  ---------------  ----------
+Intercept               -0.5924          3.2925           0.0324      0.8572
+baseline_value           0.0135          0.0235           0.3302      0.5655
+accelerations         -784.9514        218.7707          12.8738      0.0003
+fetal_movement           1.4545          2.9178           0.2485      0.6181
+uterine_contractions  -169.2521         91.4025           3.4289      0.0641
+severe_decelerations     0.0000       1000.0000           0.0000      1.0000
+
+Hosmer and Lemeshow Goodness-of-Fit Test
+
+Chi-Square        DF  Pr > ChiSq
+----------  --------  ----------
+    3.7170         8      0.8817
+
+                             Odds Ratio Estimates                              
+
+Effect                     Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+-------------------------  --------------  -----------------  -----------------
+Baseline Fetal Heart Rate           1.014              0.968              1.061
+Number of Accelerations             0.000              0.000              0.000
+Fetal Movement                      4.282              0.014           1304.059
+Uterine Contractions                0.000              0.000          19799.123
+Severe Decelerations                1.000              0.000                  .
+
+                                           ROC Curve - Binary Classification
+
+                                     
+---------------------------  --------
+Number of Observations Read       100
+Number of Observations Used       100
+
+            Response Profile            
+  Probability modeled is abnormal='1'   
+
+Ordered Value  abnormal  Total Frequency
+-------------  --------  ---------------
+            1  0                      60
+            2  1                      40
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+                                                                                                                     
+---------------------------------------------------------------------------------------------------------------------
+WARNING: There is possibly a quasi-complete separation of data points. The maximum likelihood estimate may not exist.
+
+The LOGISTIC Procedure
+Response Variable: abnormal Abnormal (Suspect or Pathological)
+
+Criterion     Value
+---------  --------
+AIC          87.937
+-2 Log L     79.937
+SC           98.358
+
+                  Analysis of Maximum Likelihood Estimates                  
+
+Parameter              Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+--------------------  ---------  --------------  ---------------  ----------
+Intercept               -0.4352          3.1483           0.0191      0.8900
+baseline_value           0.0092          0.0226           0.1652      0.6844
+accelerations         -910.2153        230.3066          15.6198      <.0001
+severe_decelerations     0.0000       1000.0000           0.0000      1.0000
+
+                             Odds Ratio Estimates                              
+
+Effect                     Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+-------------------------  --------------  -----------------  -----------------
+Baseline Fetal Heart Rate           1.009              0.965              1.055
+Number of Accelerations             0.000              0.000              0.000
+Severe Decelerations                1.000              0.000                  .

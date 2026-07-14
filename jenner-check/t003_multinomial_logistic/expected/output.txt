@@ -1,0 +1,32 @@
+                                  Multinomial Logistic Regression: 3-Class Prediction
+
+                                     
+---------------------------  --------
+Number of Observations Read       100
+Number of Observations Used       100
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: health_status Fetal Health Status
+
+Criterion     Value
+---------  --------
+AIC         118.594
+-2 Log L    102.594
+SC          139.436
+
+                    Analysis of Maximum Likelihood Estimates                    
+
+Parameter                  Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+------------------------  ---------  --------------  ---------------  ----------
+baseline_value               0.0902               .                .           .
+accelerations             -662.6217               .                .           .
+fetal_movement             -16.9468               .                .           .
+uterine_contractions      -639.5116               .                .           .
+severe_decelerations         0.0000               .                .           .
+prolongued_decelerations  2897.2379               .                .           .
+Intercept_0/1               10.1745               .                .           .
+Intercept_1/2                0.6436               .                .           .

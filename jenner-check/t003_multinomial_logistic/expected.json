@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-14T08:58:52.073344Z",
+  "_captured_run_id": "r_ba98d58a51f74c9898cd18232f73a34c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC LOGISTIC data=fetal_clean",
+    "NOTE: Output dataset pred_multi written with 100 observations."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

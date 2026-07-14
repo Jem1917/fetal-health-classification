@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_model_evaluation",
+  "source_file": "code/fetal_health_proj.sas",
+  "source_blob_sha": "0228293e30125851868ba9cc2775c6a7f27caa0b",
+  "source_commit": "2483ac01e253da2095a2c6c5d58e6772b5e676d1",
+  "notes": "Binary model then confusion matrix (PROC FREQ) and PROC SQL accuracy/sensitivity/specificity; CTG rows read inline (comma-delimited) instead of PROC IMPORT of data/fetal_health.csv so the bundle is self-contained; script logic, PROC options and models are the author's."
+}
