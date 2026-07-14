@@ -1,0 +1,31 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T043649Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA fetal_raw
+
+NOTE: Processing inline DATALINES (100 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote fetal_raw (100 rows, 22 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA fetal_clean
+
+
+NOTE: Read 100 rows from fetal_raw.
+NOTE: Wrote fetal_clean (100 rows, 24 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Table 1: Descriptive Statistics by Fetal Health Status.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: Option TITLE changed to Frequency Distribution of Fetal Health Status.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_health_status.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: Option TITLE changed to Severe Decelerations by Health Status.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_health_status_severe_decelerations.spec.json
+NOTE: PROC FREQ statement used.

@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-14T08:59:18.072639Z",
+  "_captured_run_id": "r_5a3e44821b914c15a0dd652487249928",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC LOGISTIC data=fetal_clean",
+    "NOTE: PROC CORR data=fetal_clean"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
